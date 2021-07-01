@@ -7,7 +7,10 @@ import { auth } from "./firebase";
 import { useDispatch } from "react-redux";
 import { currentUser } from "./functions/auth";
 import { LoadingOutlined } from "@ant-design/icons";
+<<<<<<< HEAD
 import CreateBrand from "./components/forms/CreateBrand";
+=======
+>>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
 
 // import Login from "./pages/auth/Login";
 // import Register from "./pages/auth/Register";
@@ -107,6 +110,7 @@ const App = () => {
   }, [dispatch]);
 
   return (
+<<<<<<< HEAD
     
     <Suspense
     style={{padding:0,
@@ -125,6 +129,21 @@ const App = () => {
       <SideDrawer style={{marginTop:"20px"}} />
       <ToastContainer />
       <Switch  style={{marginTop:"20px"}}>
+=======
+    <Suspense
+      fallback={
+        <div className="col text-center p-5">
+          __ React Redux EC
+          <LoadingOutlined />
+          MMERCE __
+        </div>
+      }
+    >
+      <Header />
+      <SideDrawer />
+      <ToastContainer />
+      <Switch>
+>>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
         <Route exact path="/" component={Home} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
@@ -135,7 +154,10 @@ const App = () => {
         <UserRoute exact path="/user/wishlist" component={Wishlist} />
         <AdminRoute exact path="/admin/dashboard" component={AdminDashboard} />
         <AdminRoute exact path="/admin/category" component={CategoryCreate} />
+<<<<<<< HEAD
         <AdminRoute exact path='/admin/createBrand' component={CreateBrand}/>
+=======
+>>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
         <AdminRoute
           exact
           path="/admin/category/:slug"
@@ -159,10 +181,14 @@ const App = () => {
         <AdminRoute exact path="/admin/coupon" component={CreateCouponPage} />
         <UserRoute exact path="/payment" component={Payment} />
       </Switch>
+<<<<<<< HEAD
     
       </div>
       </Suspense>
       
+=======
+    </Suspense>
+>>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
   );
 };
 

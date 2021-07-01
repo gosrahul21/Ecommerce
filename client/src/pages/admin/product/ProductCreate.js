@@ -9,16 +9,28 @@ import FileUpload from "../../../components/forms/FileUpload";
 import { LoadingOutlined } from "@ant-design/icons";
 
 const initialState = {
+<<<<<<< HEAD
   title: "",
   description: "",
   price: "",
+=======
+  title: "Macbook Pro",
+  description: "This is the best Apple product",
+  price: "45000",
+>>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
   categories: [],
   category: "",
   subs: [],
   shipping: "Yes",
+<<<<<<< HEAD
   quantity:"" ,
   images: [
     // 
+=======
+  quantity: "50",
+  images: [
+    // {
+>>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
     //   public_id: "jwrzeubemmypod99e8lz",
     //   url:
     //     "https://res.cloudinary.com/dcqjrwaoi/image/upload/v1599480909/jwrzeubemmypod99e8lz.jpg",
@@ -35,9 +47,15 @@ const initialState = {
     // },
   ],
   colors: ["Black", "Brown", "Silver", "White", "Blue"],
+<<<<<<< HEAD
   brands: ["Apple", "Samsung", "Microsoft", "Lenovo", "ASUS","Other"], //api for fetching brand
   color: "White",
   brand: "Apple",  
+=======
+  brands: ["Apple", "Samsung", "Microsoft", "Lenovo", "ASUS"],
+  color: "White",
+  brand: "Apple",
+>>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
 };
 
 const ProductCreate = () => {

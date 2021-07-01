@@ -57,14 +57,22 @@ const History = () => {
       </tbody>
     </table>
   );
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
   const showDownloadLink = (order) => (
     <PDFDownloadLink
       document={<Invoice order={order} />}
       fileName="invoice.pdf"
       className="btn btn-sm btn-block btn-outline-primary"
     >
+<<<<<<< HEAD
       Download Invoice
+=======
+      Download PDF
+>>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
     </PDFDownloadLink>
   );
 
