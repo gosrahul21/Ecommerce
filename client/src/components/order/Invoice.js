@@ -12,17 +12,10 @@ const Invoice = ({ order }) => (
   <Document>
     <Page style={styles.body}>
       <Text style={styles.header} fixed>
-<<<<<<< HEAD
          {new Date().toLocaleString()} 
       </Text>
       <Text style={styles.title}>Order Invoice</Text>
       <Text style={styles.author}>Ecommerce</Text>
-=======
-        ~ {new Date().toLocaleString()} ~
-      </Text>
-      <Text style={styles.title}>Order Invoice</Text>
-      <Text style={styles.author}>React Redux Ecommerce</Text>
->>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
       <Text style={styles.subtitle}>Order Summary</Text>
 
       <Table>
@@ -74,10 +67,7 @@ const Invoice = ({ order }) => (
 
 const styles = StyleSheet.create({
   body: {
-<<<<<<< HEAD
     
-=======
->>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
     paddingTop: 35,
     paddingBottom: 65,
     paddingHorizontal: 35,
@@ -85,10 +75,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     textAlign: "center",
-<<<<<<< HEAD
     color:"blue"
-=======
->>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
   },
   author: {
     fontSize: 12,

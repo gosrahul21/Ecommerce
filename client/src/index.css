@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 *{
   margin:0;
   padding:0;
 }
-=======
->>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
 .slider img,
 .card-image {
   height: 450px;
@@ -14,7 +11,6 @@
 .pointer {
   cursor: pointer;
 }
-<<<<<<< HEAD
 
 .header-nav{
   background-color: aqua;
@@ -23,5 +19,3 @@
 /* .body{
   margin-top:20px;
 } */
-=======
->>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec

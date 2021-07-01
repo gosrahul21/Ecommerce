@@ -21,16 +21,12 @@ const AdminNav = () => (
           Products
         </Link>
       </li>
-<<<<<<< HEAD
       <li className='nav-item'>
         
         <Link to="/admin/createBrand" className="nav-link">
           Add Brand
         </Link>
       </li>
-=======
-
->>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
       <li className="nav-item">
         <Link to="/admin/category" className="nav-link">
           Category

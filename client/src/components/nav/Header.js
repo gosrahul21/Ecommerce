@@ -15,10 +15,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import Search from "../forms/Search";
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
 const { SubMenu, Item } = Menu;
 
 const Header = () => {
@@ -44,15 +40,11 @@ const Header = () => {
   };
 
   return (
-<<<<<<< HEAD
     <Menu onClick={handleClick} style={{backgroundColor:"aqua",
     width:"100%",
     zIndex:1,
     
     }} selectedKeys={[current]} mode="horizontal">
-=======
-    <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
->>>>>>> 4fe5c880f8b90405739dd8cbb55b39bc08efaeec
       <Item key="home" icon={<AppstoreOutlined />}>
         <Link to="/">Home</Link>
       </Item>
